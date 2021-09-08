@@ -9,8 +9,11 @@ import com.feluts.pregunta3.model.Pregunta
 import com.feluts.pregunta3.model.Preguntaid
 import java.lang.Exception
 
+
 class DBGestor(context: Context, factory: SQLiteDatabase.CursorFactory?):SQLiteOpenHelper(context, DB_NAME, factory, DB_VERS) {
     companion object{
+        //private val DBEXT_NAME = "preguntas1.db"
+        //val DBLOCATION = "/data/data/com.your.packagename/databases/"
         private val DB_NAME = "preg.db"
         private val DB_VERS = 1
         val TABLA1 = "preguntas"
@@ -62,6 +65,7 @@ class DBGestor(context: Context, factory: SQLiteDatabase.CursorFactory?):SQLiteO
             val incorr = cursor.getString(cursor.getColumnIndex(COLUMN_INCORR))
             pregunta.add(Pregunta(preg,corr,incorr))
         }
+        cursor.close()
         return pregunta
     }
 
@@ -79,11 +83,11 @@ class DBGestor(context: Context, factory: SQLiteDatabase.CursorFactory?):SQLiteO
                 pregunta.add(Preguntaid(id,preg,corr,incorr))
             }while(cursor.moveToNext())
         }
+        cursor.close()
         return pregunta
     }
 
     fun modificarPreg(pregunta: Preguntaid):Boolean{
-        var bol: Boolean = false
         try{
             val db = this.writableDatabase
             val values = ContentValues()
@@ -93,12 +97,12 @@ class DBGestor(context: Context, factory: SQLiteDatabase.CursorFactory?):SQLiteO
             val where = "$COLUMN_ID=?"
             val whereargs = arrayOf(pregunta.id.toString())
             db.update(TABLA1, values, where, whereargs)
-            bol = true
             Log.e("Modificado!", pregunta.corr)
+            return true
         }catch (e: Exception){
             Log.e("Error al modificar", e.message.toString())
+            return false
         }
-        return bol
     }
 
 }

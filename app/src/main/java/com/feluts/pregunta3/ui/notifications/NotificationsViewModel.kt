@@ -15,18 +15,5 @@ class NotificationsViewModel : ViewModel() {
     }
     val text: LiveData<String> = _text
 
-    fun nuevapregunta(pregunta: Pregunta, context: Context):Boolean{
-        val db: DBGestor = DBGestor(context, null)
-        if(db.guardarPregunta(pregunta)){
-            return true
-        }else{
-            return false
-        }
 
-    }
-
-    fun getPregs(context: Context):ArrayList<Preguntaid>{
-        val db: DBGestor = DBGestor(context, null)
-        return db.getAllPreg()
-    }
 }

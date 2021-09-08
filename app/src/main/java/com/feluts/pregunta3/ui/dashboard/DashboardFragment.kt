@@ -51,10 +51,9 @@ class DashboardFragment : Fragment() {
         val btn_sig: Button = binding.sigBtn
         btn_sig.setVisibility(View.INVISIBLE)
 
-
-
-        var x:ArrayList<Int> = ArrayList<Int>()
-        var y:IntArray = IntArray(8){it+1}
+        //tengo que ajustar esto de forma automatica
+        //pasa que si lo hago a lo bobo termina rompiendo por un index out of range
+        var y:IntArray = IntArray(15){it+1}
         y.shuffle()
         var pregs:ArrayList<Pregunta> = dashboardViewModel.getpreg(requireContext(),y[0])
         var preg = pregs.get(0)
@@ -92,6 +91,7 @@ class DashboardFragment : Fragment() {
                 pregs = dashboardViewModel.getpreg(requireContext(),y[0])
                 preg = pregs.get(0)
                 incArr = preg.incorr.split(",").toMutableList()
+                //bucar otras formas de splitear como el espacio
                 incArr.add(preg.corr)
                 incArr.shuffle()
                 pregtxt.text = preg.preg

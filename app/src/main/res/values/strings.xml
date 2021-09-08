@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Pregunta3</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Inicio</string>
     <string name="preguntas_menu">Preguntas</string>
-    <string name="crear_menu">Crear</string>
+    <string name="opciones_db">Opciones</string>
 </resources>

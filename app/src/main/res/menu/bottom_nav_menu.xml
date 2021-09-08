@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_crear_menu"
-        android:title="@string/crear_menu" />
+        android:icon="@drawable/ic_notifications_build_circle_24"
+        android:title="@string/opciones_db" />
 
 </menu>

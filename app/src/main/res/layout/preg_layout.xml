@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:layout_width="276dp"
+            android:layout_height="95dp"
+            android:layout_alignTop="@id/iv_image"
+            android:layout_alignBottom="@id/iv_image"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginBottom="-14dp"
+            android:layout_toEndOf="@+id/iv_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preg_card"
+                android:layout_width="186dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="10dp"
+                android:text="Preg"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/corr_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Correcta"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/incorr_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Incorrecta"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
