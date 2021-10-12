@@ -1,0 +1,274 @@
+[
+  {"id":1,
+   "pregunta":"¿Cual es la capital de Buenos Aires?",
+   "correcta":"La Plata",
+   "incorrectas":"CABA, Quilmes, AMBA"
+  },
+  {"id":2,
+   "pregunta":"¿Cual es la capital de Estados Unidos?",
+   "correcta":"Washington",
+   "incorrectas":"Nueva York, Texas, California"
+  },
+  {"id":3,
+   "pregunta":"¿Cual es la capital de Italia?",
+   "correcta":"Roma",
+   "incorrectas":"Calabria, Sicilia, Piamonte"
+  },
+  {"id":4,
+   "pregunta":"¿En que año llego el hombre a la luna?",
+   "correcta":"1969",
+   "incorrectas":"1971, 1966, 1981"
+  },
+  {"id":5,
+   "pregunta":"¿En que año se declaro la independencia de Argentina?",
+   "correcta":"1816",
+   "incorrectas":"1810, 1812, 1799"
+  },
+  {"id":6,
+   "pregunta":"¿En que año fallecio Nelson Mandela?",
+   "correcta":"2013",
+   "incorrectas":"2005, 1995, 2001"
+  },
+  {"id":7,
+   "pregunta":"¿En que año sucedio el accidente nuclear de Fukushima?",
+   "correcta":"2011",
+   "incorrectas":"2010, 2009, 2013"
+  },
+  {"id":8,
+   "pregunta":"¿En que año sucedio el accidente nuclear de Chernóbil?",
+   "correcta":"1986",
+   "incorrectas":"1991, 1982, 1978"
+  },
+  {"id":9,
+   "pregunta":"¿Quien descubrio la penicilina?",
+   "correcta":"Alexander Fleming",
+   "incorrectas":"Cristobal Colon, Marie Curie, Rene Favaloro"
+  },
+  {"id":10,
+   "pregunta":"¿Quien escribio el martin fierro?",
+   "correcta":"Jose Hernández",
+   "incorrectas":"Leopoldo Lugones, Roberto Arlt, Jose Luis Borges"
+  },
+  {"id":11,
+   "pregunta":"¿Quien hace de el padre en Matilda?",
+   "correcta":"Danny DeVito",
+   "incorrectas":"Joe Pesci, Cacho Castaña, Christoph Waltz"
+  },
+  {"id":12,
+   "pregunta":"¿Quien dirigio titanic?",
+   "correcta":"James Cameron",
+   "incorrectas":"Silvester Stalone, Leo DiCaprio, Quentin Tarantino"
+  },
+  {"id":13,
+   "pregunta":"¿De quien es la cancion radio gaga?",
+   "correcta":"Queen",
+   "incorrectas":"Metallica, Los del fuego, Led Zeppelin"
+  },
+  {"id":14,
+   "pregunta":"¿De quien es la cancion let's dance?",
+   "correcta":"David Bowie",
+   "incorrectas":"Madonna, Michael Jackson, The Jackson 5"
+  },
+  {"id":15,
+   "pregunta":"¿Cual de estos no fue un famoso pirata?",
+   "correcta":"Francis Drake",
+   "incorrectas":"Barbanegra, William Kidd, Henry Morgan"
+  },
+  {"id":16,
+    "pregunta":"¿En que pelicula sale el personaje Jack Sparrow?",
+    "correcta":"Piratas del Caribe",
+    "incorrectas":"Harry Potter, Esperando la carroza, Rapido y Furioso"
+  },
+  {"id": 17,
+    "pregunta": "¿Donde Nacio Jose de San Martin?",
+    "correcta": "Argentina",
+    "incorrectas": "Francia, Paraguay, Chile"},
+  {"id": 18,
+    "pregunta": "¿Que descubrio Alexander Fleming?",
+    "correcta": "La Penicilina",
+    "incorrectas": "El ADN, Las vacunas, El matafuegos"
+  },
+  {"id": 19,
+    "pregunta": "¿Que invento Alfred Nobel?",
+    "correcta": "La dinamita",
+    "incorrectas": "El motor electrico, El sistema metrico, El Bluetooth"
+  },
+  {"id": 20,
+    "pregunta": "¿Como le llamaban los griegos a Ramses II?",
+    "correcta": "Ozymandias",
+    "incorrectas": "Rammus, El gran faraón, Gran Ancestro"
+  },
+  {"id": 21,
+    "pregunta": "¿Por cual de estos paises no pasa el nilo?",
+    "correcta": "Zambia",
+    "incorrectas": "Uganda, Kenia, Egipto"
+  },
+  {"id": 22,
+    "pregunta": "¿Cual es el rio mas largo del mundo?",
+    "correcta": "Amazonas",
+    "incorrectas": "Nilo, Misisipi, Rojo"
+  },
+  {"id": 23,
+    "pregunta": "¿Que puntos une el ferrocarril Transiberiano?",
+    "correcta": "Moscu-Vladivostok",
+    "incorrectas": "Moscu-Omsk, Siberia-Vladivostok, Moscu-Minsk"
+  },
+  {"id": 24,
+    "pregunta": "¿Cual fue el ultimo Zar de Rusia?",
+    "correcta": "Nicolás II ", "incorrectas": "Nicolás III, Rasputin, Cirilo Románov"
+  },
+  {"id": 25,
+    "pregunta": "¿A quien se le atribuye la autoria de la Conquista del Desierto?",
+    "correcta": "Julio Argentino Roca",
+    "incorrectas": "Carlos Menem, Carlos Pelegrini, Hipolito Yrigoyen"
+  },
+{
+    "id": 26,
+    "pregunta": "¿Que significan las siglas OTAN?",
+    "correcta": "Organizacion del Tratado del Atlantico Norte",
+    "incorrectas": "Organizacion de Toda America del Norte, Oficina de Tratados Andinos Nacionales, Ninguna de las anteriores"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cual de estos paises NO forma parte de la OTAN?",
+    "correcta": "Brasil",
+    "incorrectas": "Canada, Italia, España"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cual es la capital de Grecia?",
+    "correcta": "Atenas",
+    "incorrectas": "Helena, Macedonia, Creta"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cual es la altura del monte Olimpo?",
+    "correcta": "2918m",
+    "incorrectas": "3512m, 2548m, 2218m"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Que clase de animal es el jabalí?",
+    "correcta": "Mamifero",
+    "incorrectas": "Reptil, Insecto, Maxillopoda"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Que observan los satelites de Landsat?",
+    "correcta": "La tierra",
+    "incorrectas": "El sol, El sistema solar, Marte"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Que significa ADN?",
+    "correcta": "Acido Desoxirribonucleico",
+    "incorrectas": "Acido Desoxigenado, Acido Desribonucleico, Acido Detox"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cual es el radio de la tierra?",
+    "correcta": "6.370km",
+    "incorrectas": "14.021km, 7.541km, 5.820km"
+  },
+{
+    "id": 34,
+    "pregunta": "¿Cual es la capa externa de la tierra?",
+    "correcta": "Corteza",
+    "incorrectas": "Manto, Manto superior, Nucleo Externo"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Entre que años fue canciller de Alemania Angela Merkel?",
+    "correcta": "2005-2021",
+    "incorrectas": "2006-2021, 2012-2021, 2001-2020"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Cual de estos paises no forma parte del G7?",
+    "correcta": "Rusia",
+    "incorrectas": "USA, Canada, Italia"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Cuantas estrellas tiene la bandera de Iraq?",
+    "correcta": "3",
+    "incorrectas": "4, 5, 8"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cual es la religion mayoritaria de Iraq?",
+    "correcta": "Islam",
+    "incorrectas": "Cristianismo, Judaismo, Budismo"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Cual es la capital de Iraq?",
+    "correcta": "Baghdad",
+    "incorrectas": "Tel Aviv, Hassan al-Bakr, Saladin"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Que significa ONG?",
+    "correcta": "Organizacion no gubernamental",
+    "incorrectas": "Organizacion Nacional General, Ordenanza no gubernamental, Orden Novo General"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Cual es la ciudad mas polada de Suecia?",
+    "correcta": "Estocolmo",
+    "incorrectas": "Oresund, Zurich, Upsala"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿En que año se fundo la ciudad de Estocolmo?",
+    "correcta": "1252",
+    "incorrectas": "1321, 1125, 1485"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Cuantos estados forman la Union Europea?",
+    "correcta": "27",
+    "incorrectas": "25, 31, 14"
+  },
+{
+    "id": 44,
+    "pregunta": "¿Quien era Amiano Marcelino?",
+    "correcta": "Militar e historiador",
+    "incorrectas": "Marino, Emperador Romano, Arqueologo e historiador"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿En que año se dio la batalla de adrianópolis?",
+    "correcta": "378",
+    "incorrectas": "421, 501, 236"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Con que otro nombre es conocido el imperio Bizantino?",
+    "correcta": "Imperio romano de Oriente",
+    "incorrectas": "Imperio romano, Imperio español, Imperio normando"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿En que año fue la caida de Constantinopla?",
+    "correcta": "1453",
+    "incorrectas": "1501, 1816, 1050"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Que suceso se suele tomar como el que marco el final de la edad media?",
+    "correcta": "La caida de Constantinopla",
+    "incorrectas": "El asenso de Hitler, El gran incendio de Roma, La unificacion Alemana"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Cual es el idioma oficial de Nigeria?",
+    "correcta": "Ingles",
+    "incorrectas": "Frances, Aleman, Nigeriano"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Cual es la capital de Japon?",
+    "correcta": "Tokyo",
+    "incorrectas": "Kyoto, Nagoya, Okinawa"
+  }]

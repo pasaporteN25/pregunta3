@@ -10,4 +10,7 @@ class ModificardbViewModel : ViewModel() {
         val db: DBGestor = DBGestor(context, null)
         return db.getAllPreg()
     }
+
+
+
 }

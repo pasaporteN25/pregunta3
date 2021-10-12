@@ -29,7 +29,7 @@ import kotlinx.coroutines.currentCoroutineContext
 import org.w3c.dom.Text
 import java.lang.Exception
 
-class PreguntaAdapter(val lista:ArrayList<Preguntaid>, fm: FragmentManager): RecyclerView.Adapter<PreguntaAdapter.ViewHolder>() {
+class PreguntaAdapter(val lista:ArrayList<Preguntaid>, fm: FragmentManager, val listener: () -> Unit): RecyclerView.Adapter<PreguntaAdapter.ViewHolder>() {
 
     //private lateinit var nViewModel: NotificationsViewModel
     var hfm: FragmentManager = fm
@@ -53,9 +53,12 @@ class PreguntaAdapter(val lista:ArrayList<Preguntaid>, fm: FragmentManager): Rec
                 val addfdb: AgregaradbFragment = AgregaradbFragment.newInstance(tomod)
                 val transac = hfm.beginTransaction()
                 transac.replace(R.id.nav_host_fragment_activity_main,addfdb).addToBackStack(null).commit()
+                //aca seria mejor hacerlo con un callback y un listener
+
+                listener()
+
             }
         )
-
 
     }
 

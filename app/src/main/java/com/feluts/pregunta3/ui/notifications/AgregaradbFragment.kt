@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.feluts.pregunta3.R
 import com.feluts.pregunta3.databinding.AgregaradbFragmentBinding
-import com.feluts.pregunta3.databinding.FragmentNotificationsBinding
 import com.feluts.pregunta3.model.Pregunta
 import com.feluts.pregunta3.model.Preguntaid
 
@@ -24,16 +23,12 @@ class AgregaradbFragment : Fragment() {
                 putString("pregunta",preg.preg)
                 putString("correcta",preg.corr)
                 putString("incorrecta",preg.incorr)
-
             }
         }
-
     }
 
     private lateinit var addViewModel: AgregaradbViewModel
     private var _binding: AgregaradbFragmentBinding? = null
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
 
